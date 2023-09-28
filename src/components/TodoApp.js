@@ -1,7 +1,10 @@
-const Sap = () => (
-  <div>
-    <h1>Hello world!</h1>
-    <p>I am in a React Component!</p>
-  </div>
+import Header from './Header';
+import TodosLogic from './TodosLogic';
+
+const TodoApp = () => (
+  <>
+    <Header />
+    <TodosLogic />
+  </>
 );
-export default Sap;
+export default TodoApp;

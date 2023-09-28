@@ -1,7 +1,7 @@
-import Sap from './components/TodoApp';
+import TodoApp from './components/TodoApp';
 
 function App() {
-  return <Sap />;
+  return <TodoApp />;
 }
 
 export default App;
